@@ -80,7 +80,8 @@ public class BookmarksActivity extends Activity {
 
 		// TODO - Start the GoToDangerousActivity
 		
-
+		Intent dangerousactivity = new Intent(BookmarksActivity.this, GoToDangerousActivity.class);
+		startActivity(dangerousactivity);
 	}
 
 }

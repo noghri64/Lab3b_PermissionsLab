@@ -34,5 +34,9 @@ public class ActivityLoaderActivity extends Activity {
 	
 		// TODO - Start the BookmarksActivity
 
+		Intent bookmarkactivity = new Intent(ActivityLoaderActivity.this, BookmarksActivity.class);
+
+		startActivity(bookmarkactivity);
+
 	}
 }
